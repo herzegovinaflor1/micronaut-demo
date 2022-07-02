@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: micronautDemo
+  session:
+    http:
+      cookie: true
+      header: true
+netty:
+  default:
+    allocator:
+      max-order: 3
